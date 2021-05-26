@@ -1,0 +1,15 @@
+.person-details {
+  &__img {
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 576px) {
+  .person-details {
+    flex-direction: row;
+
+    &__img {
+      width: 40%;
+    }
+  }
+}

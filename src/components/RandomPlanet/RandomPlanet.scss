@@ -1,0 +1,15 @@
+.random-planet {
+  &__img {
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 576px) {
+  .random-planet {
+    flex-direction: row;
+
+    &__img {
+      width: 30%;
+    }
+  }
+}

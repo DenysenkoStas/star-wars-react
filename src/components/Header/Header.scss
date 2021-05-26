@@ -1,0 +1,17 @@
+.header {
+  .navbar-brand {
+    transition: .3s;
+
+    &:hover {
+      color: #00bc8c;
+    }
+  }
+
+  &__link {
+    border-radius: .25rem;
+
+    &:hover {
+      background-color: #444;
+    }
+  }
+}
